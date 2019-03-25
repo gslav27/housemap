@@ -13,7 +13,7 @@ const CardTemplateResolver = ChildComponent => ({
   ...otherProps
 }) => {
   const [resolvedTemplate, setResolvedTemplate] = useState(() => (
-    // Check for 'template' passed from Parent component and resolve it for <ConfigurableCard />
+    // Check for 'template' passed from Parent component and resolve it for ChildComponent
     // OR
     // use already resolved template (passed from Parent component or default one)
     template
